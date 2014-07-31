@@ -12,6 +12,13 @@ To update, simply remove the old versions of the .bundle and .framework from the
 
 ##Changelog
 
+###v1.1.1
+
+- Better connectivity handling
+- Improved localization
+- More efficient video caching
+- Optimized global memory footprint
+
 ###v1.1.0
 
 - Whole new UI for an improved user experience
