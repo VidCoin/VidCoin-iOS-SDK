@@ -13,6 +13,7 @@ To update, simply remove the old versions of the .bundle and .framework from the
 ##Changelog
 
 ###v1.1.1
+*(Released on 07/31/2014)*
 
 - Better connectivity handling
 - Improved localization
@@ -20,14 +21,17 @@ To update, simply remove the old versions of the .bundle and .framework from the
 - Optimized global memory footprint
 
 ###v1.1.0
+*(Released on 07/04/2014)*
 
 - Whole new UI for an improved user experience
 - Fixed video player when Airplay is active
 
 ###v1.0.0
+*(Released on 06/06/2014)*
 
 - First public release
 
 ###v1.0.0-beta
+*(Released on 05/26/2014)*
 
 - First beta release
