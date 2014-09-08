@@ -13,7 +13,7 @@ To update, simply remove the old versions of the .bundle and .framework from the
 ##Changelog
 
 ###v1.1.2
-*(Released on 08/09/2014)*
+*(Released on 09/08/2014)*
 - Optimized player for devices running iOS 6
 
 ###v1.1.1
