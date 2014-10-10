@@ -6,6 +6,16 @@ VidCoin-iOS-SDK
 
 To update, simply remove the old versions of the .bundle and .framework from the project, and add the new bundle and framework files.
 
+###Supported iOS versions
+
+| SDK version  | iOS 6 | iOS 7 | iOS 8 |
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| 1.0.0 | x | x |  |
+| 1.1.0 | x | x |  |
+| 1.1.1 | x | x |  |
+| 1.1.2 | x | x |  |
+| 1.2.0 *(coming soon)* | x | x | x |
+
 
 ##Preview
 ![VidCoin Mobile Overlay](https://raw.githubusercontent.com/VidCoin/VidCoin-iOS-SDK/gh-pages/images/vc_preview.png "VidCoin Mobile Overlay")
