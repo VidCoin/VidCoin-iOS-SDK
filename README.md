@@ -11,7 +11,7 @@ To update, simply remove the old versions of the .bundle and .framework from the
 If you're updating from a previous SDK version, make sure to add **CoreMedia.framework** to the target's linked libraries.
 
 ##Preview
-![VidCoin Mobile Overlay](https://raw.githubusercontent.com/VidCoin/VidCoin-iOS-SDK/gh-pages/images/vc_preview.png "VidCoin Mobile Overlay")
+![VidCoin Mobile Overlay](https://googledrive.com/host/0B6TMHf2nEKbFdFQxTjJJaGZUWm8 "VidCoin Mobile Overlay")
 
 ##Supported iOS versions
 
