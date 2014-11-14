@@ -13,13 +13,29 @@ To update, simply remove the old versions of the .bundle and .framework from the
 
 | SDK version  | iOS 6 | iOS 7 | iOS 8 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| 1.2.0 *(coming soon)* | x | x | x |
-| 1.1.2 *(latest)* | x | x |  |
+| 1.2.0 *(latest)* | x | x | x |
+| 1.1.2 | x | x |  |
 | 1.1.1 | x | x |  |
 | 1.1.0 | x | x |  |
 | 1.0.0 | x | x |  |
 
 ##Changelog
+
+###v1.2.0
+*(Released on 14 Nov. 2014)*
+- Xcode 6, iOS 8 and iPhone 6 / 6 Plus support
+- New player and landing UI
+- New share button on the landing
+- Links open in a WebView to keep the user in the app
+- Reduced memory footprint
+- Improved player performance
+- Choose to enable or disable the animations when calling VidCoin's player
+- Network activity indicator is now only visible if logging is enabled
+- Improved network handling
+
+**Important:**
+
+If you're **updating from a previous SDK version**, make sure to include **CoreMedia.framework** in the target's linked libraries.
 
 ###v1.1.2
 *(Released on 08 Sep. 2014)*
