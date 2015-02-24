@@ -26,7 +26,7 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 
 ##Changelog
 
-###v1.2.0
+###v1.2.1
 *(Released on 24 Feb. 2015)*
 - Updated for projects created with Xcode 6
 - Visual improvements for the landing screen
