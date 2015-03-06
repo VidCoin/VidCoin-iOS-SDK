@@ -17,7 +17,7 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 
 | SDK version  | iOS 6 | iOS 7 | iOS 8 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| 1.2.1 *(latest)* | x | x | x |
+| 1.2.1 | x | x | x |
 | 1.2.0 | x | x | x |
 | 1.1.2 | x | x |  |
 | 1.1.1 | x | x |  |
