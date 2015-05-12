@@ -34,6 +34,10 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 - Reduced memory footprint
 - Better tracking for better ad serving
 
+**Important:**
+
+If you're **updating from a SDK version prior to 1.2.0**, make sure to include **CoreMedia.framework** in the target's linked libraries.
+
 ###v1.2.1
 *(Released on 24 Feb. 2015)*
 - Updated for projects created with Xcode 6
