@@ -2,7 +2,7 @@ VidCoin-iOS-SDK
 ===============
 ##Download and install
 
-[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.2.3/VidCoin-iOS-SDK.zip)
+[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.2.4/VidCoin-iOS-SDK.zip)
 
 To update, simply remove the old versions of the .bundle and .framework from the project, and add the new bundle and framework files.
 
@@ -17,6 +17,7 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 
 | SDK version  | iOS 6 | iOS 7 | iOS 8 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
+| 1.2.4 | x | x | x |
 | 1.2.3 | x | x | x |
 | 1.2.2 | x | x | x |
 | 1.2.1 | x | x | x |
@@ -28,10 +29,14 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 
 ##Changelog
 
+###v1.2.4
+*(Released on 25 Aug. 2015)*
+- Overall stabilization and improvements
+
 ###v1.2.3
 *(Released on 27 Jul. 2015)*
-• Improved video quality handling fo better user experience
-• Reduced memory footprint and improved low memory handling
+- Improved video quality handling fo better user experience
+- Reduced memory footprint and improved low memory handling
 
 ###v1.2.2
 *(Released on 12 May. 2015)*
