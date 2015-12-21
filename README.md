@@ -15,9 +15,6 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 
 ##Additional Informations
 
-###Deprecations
-Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
-
 ###Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
@@ -33,6 +30,9 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 | 1.1.1 | x | x |  |  |
 | 1.1.0 | x | x |  |  |
 | 1.0.0 | x | x |  |  |
+
+###Deprecations
+Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ##Changelog
 
