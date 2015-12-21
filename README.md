@@ -13,8 +13,12 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 ##Preview
 ![VidCoin Mobile Overlay](https://googledrive.com/host/0B6a-nwag10vpMkRUZTZlVWJIcTQ "VidCoin Mobile Overlay")
 
-##Supported iOS versions
+##Additional Informations
 
+###Deprecations
+Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
+
+###Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | 1.3.2 | x | x | x | x |
