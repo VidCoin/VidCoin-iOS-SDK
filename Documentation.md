@@ -46,12 +46,12 @@ To update the framework in your project, simply remove the old versions of the .
 ### Step 3: Linking required frameworks
 Select your target in the project settings, then go to “Build Phases”.
 Expand Link Binary With Library, and add the following frameworks to the list :
-• MediaPlayer.framework
-• AVFoundation.framework
-• AdSupport.framework
-• CoreTelephony.framework
-• SystemConfiguration.framework
-• CoreMedia.framework
+- MediaPlayer.framework
+- AVFoundation.framework
+- AdSupport.framework
+- CoreTelephony.framework
+- SystemConfiguration.framework
+- CoreMedia.framework
 
 ### Recommended step: Disabling iOS 9’s ATS
 With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which is a default setting that prevents your app from making non-secure connections. With ATS, any app built against iOS 9 using XCode 7 will only allow HTTPS connections.
