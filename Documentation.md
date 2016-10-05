@@ -36,7 +36,7 @@ Download and open the zip file from Github : https://github.com/VidCoin/VidCoin-
 ### Step 2: Adding the framework to the project
 Navigate to *VidCoin-iOS-SDK-version/Framework/* and add the .framework and the .bundle to the project:
 
-![Image1](http://www.googledrive.com/host/0Bwu-tkR-jL-5TERzMXJ3SUkwakk)
+![Image1](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-iOS-1.png)
 
 *Note: both are necessary for presenting videos. If you do not add the .bundle file, you may be able to build but your app will crash when trying to show an ad.*
 
@@ -89,7 +89,7 @@ To do so, go to the app configuration, select your target, and in the Deployment
 #### Status bar management:
 Again, we want to make sure we give your users the best experience possible. Our player looks great with the status bar hidden, but you may have chosen to keep it visible in your app. What you should do next is open your App-Info.plist file, and add the key View controller-based status bar appearance and set its value to YES:
 
-![Image2](http://www.googledrive.com/host/0Bwu-tkR-jL-5X29Db202SVJna00)
+![Image2](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-iOS-2.png)
 
 That way, we will be able to hide the status bar when we present our player, and put it back if necessary before returning to your app.
 
@@ -215,7 +215,7 @@ This method is called when the server answers after the framework tried to valid
 ### Step 10: Submitting to the AppStore
 When you submit your app for Apple’s approval, you will be asked if your app uses the Advertising Identifier. Vidcoin’s framework does use this identifier, in order to serve advertisements within your app:
 
-![Image3](http://www.googledrive.com/host/0Bwu-tkR-jL-5MUZKZ1VvN2c1dlE)
+![Image3](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-iOS-3.png)
 
 ## Advice for integration
 The integration of the Vidcoin solution must not deteriorate the user experience.
