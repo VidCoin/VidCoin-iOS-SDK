@@ -1,37 +1,40 @@
-# Vidcoin iOS - QuickStart Guide
+# Vidcoin iOS SDK - QuickStart Guide
+
+![Vidcoin](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Logo.png)
+
+SDK version: 1.4.0					
+Manager: https://manager.vidcoin.com			
+Contact: publishers@vidcoin.com			
 
 ## Overview						
-Vidcoin SDK enables you to broadcast videos in your apps in order to give users access to restricted content or to obtain virtual currency for free.
-This document and the archive contain all the information you need in order to integrate our solution and start broadcasting videos. You’ll find an integration example inside unitypackage. You can also contact us directly at publishers@vidcoin.com.
+Vidcoin iOS SDK enables you to broadcast videos in your apps in order to give users access to restricted content or to obtain virtual currency for free.
+This document and the archive contain all the information you need in order to integrate our solution and start broadcasting videos. You can also contact us directly at publishers@vidcoin.com.
 
 ## Account Settings						
-An approved and valid publisher account is necessary in order to use the SDK. If you do not have an account, please sign up directly on https://manager.vidcoin.com.
+An approved and valid publisher account is necessary in order to use the SDK. If you do not have an account, please sign up directly on [https://manager.vidcoin.com](https://manager.vidcoin.com).
 This also grants you access to statistics and detailed reports in our Publishers Back-Office.
 
 ### App Creation
-You can access App Creation in the “App” menu of your publisher area. The creation of an app generates an “App ID” which will be mandatory in order to use the Vidcoin SDK. 
+You can access App Creation in the “App” menu of your publisher area. The creation of an app generates an “App ID” which will be mandatory in order to use the Vidcoin iOS SDK.
 
 ### Placement Creation			
-A Placement represents the zone in your app where the videos will be available for broadcasting. There are different settings available for any app Placement:
-- Minimum Payout: corresponds to the minimum revenue that a video must generate in order to be offered to a user. We recommend you to set "No minimum payout" to get more videos. We will automatically give you the highest pricing.
-- Test Mode: when “Test Mode” is activated, the Placement will always display videos for users, without any restrictions. Test mode placements do not generate any revenue.
+A Placement represents the zone in your app where the videos will be available for broadcasting. There are different settings available for any app Placement:			
+- Minimum Payout: corresponds to the minimum revenue that a video must generate in order to be offered to a user. We recommend you to set "No minimum payout" to get more videos. We will automatically give you the highest pricing.			
+- Test Mode: when “Test Mode” is activated, the Placement will always display videos for users, without any restrictions. Test mode placements do not generate any revenue.		
 
-#### Access Sponsoring		
-An Access Sponsoring placement allows users to access a specific part of the app by watching a video. The user does not necessarily need to be logged in to your app in order to access videos. The process does not need a server-side callback and is only executed on the client-side.
+Basic configuration allows users to access a specific part of the app by watching a video. Once the advertisement's guaranteed duration is reached, you can unlock the content.		
 
-#### Item Sponsoring					
-An Item Sponsoring placement rewards the player with virtual currency. The user must therefore be logged in and have a specific and unique identifier. The validation of the transaction uses a secured server callback to credit the user.
-The following settings can be defined for all Item Sponsoring placements:			
-- Callback URL: URL that will be used to validate the transaction (please see “Set up of a server callback”)			
-- Virtual Currency Name: name of your virtual currency			
-- You can choose 2 types of rewards for the user:
-    - Exchange rate: rate defining how much 1€ equals of your virtual currency. Please note that we recommend that you use a low exchange rate such that 1€ = 1000 of your virtual currency. This will prevent any problems of crediting users with small amounts of virtual currency.
-    - Fixed reward: amount of virtual currency the user will be rewarded for 1 view.
+If you want to reward your users with items or currency, you will have more settings available : 			
+- Reward name: name of your virtual currency.		
+- You can choose 2 types of rewards for the user:		
+	- Conversion rate: rate defining how much 1€ equals of your virtual currency. Please note that we recommend that you use a low exchange rate such that 1€ = 1000 of your virtual currency. This will prevent any problems of crediting users with small amounts of virtual currency.
+	- Fixed reward: amount of virtual currency the user will be rewarded for 1 view.
+	- Callback URL (Optional): URL that will be used to validate the transaction on your servers.		
 
 ## Setting up the framework in your app
 
 ### Step 1: Getting the framework
-Download and open the zip file from Github : https://github.com/VidCoin/VidCoin-iOS-SDK
+Download and open the zip file from Github : [https://github.com/VidCoin/VidCoin-iOS-SDK](https://github.com/VidCoin/VidCoin-iOS-SDK)
 
 ### Step 2: Adding the framework to the project
 Navigate to *VidCoin-iOS-SDK-version/Framework/* and add the .framework and the .bundle to the project:
@@ -46,7 +49,6 @@ To update the framework in your project, simply remove the old versions of the .
 ### Step 3: Linking required frameworks
 Select your target in the project settings, then go to “Build Phases”.
 Expand Link Binary With Library, and add the following frameworks to the list :
-- MediaPlayer.framework
 - AVFoundation.framework
 - AdSupport.framework
 - CoreTelephony.framework
@@ -104,11 +106,11 @@ Next, the recommended way to start Vidcoin is place a call to `+startWithGameId`
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
 	// Your custom initialization
-	
+
     [VidCoin startWithGameId:@"your-app-id"];
-    
+
     return YES;
 }
 ```
