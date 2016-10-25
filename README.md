@@ -17,7 +17,7 @@ Also, **MediaPlayer.framework** is not used anymore. Feel free to remove it, if 
 If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMedia.framework** to the target's linked libraries.
 
 ##Preview
-![VidCoin Mobile Overlay](https://d3rud9259azp35.cloudfront.net/preview/ios.png "VidCoin Mobile Overlay")
+![VidCoin Mobile Overlay](https://d3rud9259azp35.cloudfront.net/preview/ios_player.png "VidCoin Mobile Overlay")
 
 ##Additional Informations
 
