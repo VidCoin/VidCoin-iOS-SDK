@@ -24,7 +24,7 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 ###Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 1.4.0 | x | x | x | x | x |
+| 1.4.0 | - | x | x | x | x |
 | 1.3.5 | x | x | x | x |  |
 | 1.3.4 | x | x | x | x |  |
 | 1.3.3 | x | x | x | x |  |
