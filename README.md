@@ -4,6 +4,8 @@ VidCoin-iOS-SDK
 
 [Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.4.0/VidCoin-iOS-SDK.zip)
 
+[Online Documentation](https://github.com/VidCoin/VidCoin-iOS-SDK/blob/master/Documentation.md)
+
 To update, simply remove the old versions of the .bundle and .framework from the project, and add the new bundle and framework files.
 
 **Updating to v1.4.0**
