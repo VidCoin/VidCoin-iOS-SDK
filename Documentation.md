@@ -34,7 +34,7 @@ If you want to reward your users with items or currency, you will have more sett
 ## Setting up the framework in your app
 
 ### Step 1: Getting the framework
-Download and open the zip file from Github : [https://github.com/VidCoin/VidCoin-iOS-SDK](https://github.com/VidCoin/VidCoin-iOS-SDK)
+Download and open the zip file from Github: [https://github.com/VidCoin/VidCoin-iOS-SDK](https://github.com/VidCoin/VidCoin-iOS-SDK)
 
 ### Step 2: Adding the framework to the project
 Navigate to *VidCoin-iOS-SDK-version/Framework/* and add the .framework and the .bundle to the project:
@@ -49,17 +49,18 @@ To update the framework in your project, simply remove the old versions of the .
 ### Step 3: Linking required frameworks
 Select your target in the project settings, then go to “Build Phases”.
 Expand Link Binary With Library, and add the following frameworks to the list :
-- AVFoundation.framework
 - AdSupport.framework
+- AVFoundation.framework
+- CoreMedia.framework
 - CoreTelephony.framework
 - SystemConfiguration.framework
-- CoreMedia.framework
+- WebKit.framework (set as *optional*)
 
-### Recommended step: Disabling iOS 9’s ATS
-With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which is a default setting that prevents your app from making non-secure connections. With ATS, any app built against iOS 9 using XCode 7 will only allow HTTPS connections.
-Starting with v1.3.0, Vidcoin’s iOS SDK is fully compatible with iOS 9, which mean you should not worry about any ad revenue drop from our service. Nevertheless, some of our partners will not be able to make the transition that easily. To ensure you get the best service possible from our product, we recommend you disable ATS in your project.
+### Recommended step: Configuring App Transport Security (ATS) Settings
+With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which requires your app to make secure network connections via SSL, and enforces HTTPS connections through its requirements on the SSL version, encryption cipher, and key length.      
+Since v1.3.0, Vidcoin’s iOS SDK is fully compatible with iOS 9, which means you should not worry about any ad revenue drop from our service. Nevertheless, some of our partners will not be able to make the transition that easily. To ensure you get the best service possible from our product, we recommend you disable ATS in your project.
 
-Apple provided a way to do so easily. Simply add the following lines to your project’s .plist file:
+With iOS 9, Apple provided a way to easily disable ATS in a project, by add the following lines to the project’s `.plist` file:
 
 ```xml
 <key>NSAppTransportSecurity</key>
@@ -68,7 +69,17 @@ Apple provided a way to do so easily. Simply add the following lines to your pro
     <true/>
 </dict>
 ```
-Do note that this change only impacts apps built for iOS 9, and apps built for older iOS versions will not be affected.
+
+With iOS 10, Apple is restricting the usage of `NSAllowsArbitraryLoads`, and setting this key’s value to YES triggers App Store review and requires justification.      
+When building against iOS 10, you can disable ATS for web content only:
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+</dict>
+```
 
 ### Step 4: Enabling device rotation and status bar management
 *Note: although this step is optional, it greatly improves the user experience.*
@@ -146,7 +157,7 @@ In addition to implementing the `VidCoinDelegate` protocol, you can enable extra
 [VidCoin setLoggingEnabled: YES];
 ```
 
-**Important note : this will also make the device’s network activity indicator visible when a network connection is active.**
+**Important note: this will also make the device’s network activity indicator visible when a network connection is active.**
 
 *Advice: set the verbose tag to false before releasing your app.*
 
@@ -160,7 +171,6 @@ It’s really important you send us as much information on your user as you can,
 ```
 
 You can pass any of these 3 key-value pairs, all keys and values being String objects.
-
 
 | Key  | Values | Description |
 | :-------------: | :-------------: | :-------------: |
@@ -237,4 +247,4 @@ This type of integration avoids proposing a user to watch a video if none is ava
 The sample app gives a good example of a recommended integration.
 
 ## Server-side callback (optional)
-If you want to use a server-side callback to credit your users (Item Sponsoring placement), you can download our PHP SDK: https://github.com/VidCoin/VidCoin-PHP-SDK
+If you want to use a server-side callback to credit your users, you can download our PHP SDK: https://github.com/VidCoin/VidCoin-PHP-SDK
