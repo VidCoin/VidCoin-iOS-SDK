@@ -18,9 +18,7 @@ This also grants you access to statistics and detailed reports in our Publishers
 You can access App Creation in the “App” menu of your publisher area. The creation of an app generates an “App ID” which will be mandatory in order to use the Vidcoin iOS SDK.
 
 ### Placement Creation			
-A Placement represents the zone in your app where the videos will be available for broadcasting. There are different settings available for any app Placement:			
-- Minimum Payout: corresponds to the minimum revenue that a video must generate in order to be offered to a user. We recommend you to set "No minimum payout" to get more videos. We will automatically give you the highest pricing.			
-- Test Mode: when “Test Mode” is activated, the Placement will always display videos for users, without any restrictions. Test mode placements do not generate any revenue.		
+A Placement represents the zone in your app where the videos will be available for broadcasting.
 
 Basic configuration allows users to access a specific part of the app by watching a video. Once the advertisement's guaranteed duration is reached, you can unlock the content.		
 
@@ -116,8 +114,8 @@ It’s now time to start the framework. Start by importing the main header file 
 Next, the recommended way to start Vidcoin is place a call to `+startWithGameId` as soon as possible. For example, you can do as follows:
 
 ```objective-c
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+-(BOOL)application:(UIApplication *)application
+				didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Your custom initialization
 
     [VidCoin startWithGameId:@"your-app-id"];
@@ -247,4 +245,4 @@ This type of integration avoids proposing a user to watch a video if none is ava
 The sample app gives a good example of a recommended integration.
 
 ## Server-side callback (optional)
-If you want to use a server-side callback to credit your users, you can download our PHP SDK: https://github.com/VidCoin/VidCoin-PHP-SDK
+If you want to use a server-side callback to credit your users, please refer to the following documentation: [http://documentation.vidcoin.com/Vidcoin-Server-Callback.html](http://documentation.vidcoin.com/Vidcoin-Server-Callback.html)
