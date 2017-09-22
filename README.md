@@ -3,7 +3,7 @@ VidCoin-iOS-SDK
 
 ## Download and install
 
-[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.4.2/VidCoin-iOS-SDK.zip)
+[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.4.3/VidCoin-iOS-SDK.zip)
 
 [Online Documentation](https://github.com/VidCoin/VidCoin-iOS-SDK/blob/master/Documentation.md)
 
@@ -25,31 +25,36 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 ## Additional Informations
 
 ### Supported iOS versions
-| SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 |
-| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 1.4.2 | - | x | x | x | x |
-| 1.4.1 | - | x | x | x | x |
-| 1.4.0 | - | x | x | x | x |
-| 1.3.5 | x | x | x | x |  |
-| 1.3.4 | x | x | x | x |  |
-| 1.3.3 | x | x | x | x |  |
-| 1.3.2 | x | x | x | x |  |
-| 1.3.1 | x | x | x | x |  |
-| 1.3.0 | x | x | x | x |  |
-| 1.2.4 | x | x | x |  |  |
-| 1.2.3 | x | x | x |  |  |
-| 1.2.2 | x | x | x |  |  |
-| 1.2.1 | x | x | x |  |  |
-| 1.2.0 | x | x | x |  |  |
-| 1.1.2 | x | x |  |  |  |
-| 1.1.1 | x | x |  |  |  |
-| 1.1.0 | x | x |  |  |  |
-| 1.0.0 | x | x |  |  |  |
+| SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| 1.4.3 | - | x | x | x | x | x |
+| 1.4.2 | - | x | x | x | x |  |
+| 1.4.1 | - | x | x | x | x |  |
+| 1.4.0 | - | x | x | x | x |  |
+| 1.3.5 | x | x | x | x |  |  |
+| 1.3.4 | x | x | x | x |  |  |
+| 1.3.3 | x | x | x | x |  |  |
+| 1.3.2 | x | x | x | x |  |  |
+| 1.3.1 | x | x | x | x |  |  |
+| 1.3.0 | x | x | x | x |  |  |
+| 1.2.4 | x | x | x |  |  |  |
+| 1.2.3 | x | x | x |  |  |  |
+| 1.2.2 | x | x | x |  |  |  |
+| 1.2.1 | x | x | x |  |  |  |
+| 1.2.0 | x | x | x |  |  |  |
+| 1.1.2 | x | x |  |  |  |  |
+| 1.1.1 | x | x |  |  |  |  |
+| 1.1.0 | x | x |  |  |  |  |
+| 1.0.0 | x | x |  |  |  |  |
 
 ### Deprecations
 Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ## Changelog
+
+### v1.4.3
+*(Released on 22 Sep. 2017)*
+- iOS 11 & iPhone X support
 
 ### v1.4.2
 *(Released on 23 Mar. 2017)*
