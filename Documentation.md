@@ -2,7 +2,7 @@
 
 ![Vidcoin](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Logo.png)
 
-SDK version: 1.4.3					
+SDK version: 1.4.4					
 Manager: https://manager.vidcoin.com			
 Contact: publishers@vidcoin.com			
 
