@@ -2,7 +2,7 @@
 
 ![Vidcoin](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Logo.png)
 
-SDK version: 1.4.4        
+SDK version: 1.4.5        
 Manager: https://manager.vidcoin.com        
 Contact: publishers@vidcoin.com        
 
@@ -53,6 +53,7 @@ Expand Link Binary With Library, and add the following frameworks to the list :
 - CoreTelephony.framework
 - SystemConfiguration.framework
 - WebKit.framework (set as *optional*)
+- StoreKit.framework (set as *optional*)
 
 ### Recommended step: Configuring App Transport Security (ATS) Settings
 With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which requires your app to make secure network connections via SSL, and enforces HTTPS connections through its requirements on the SSL version, encryption cipher, and key length.      
