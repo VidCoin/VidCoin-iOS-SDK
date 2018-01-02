@@ -3,13 +3,17 @@ VidCoin-iOS-SDK
 
 ## Download and install
 
-[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.4.4/VidCoin-iOS-SDK.zip)
+[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.4.5/VidCoin-iOS-SDK.zip)
 
 [Online Documentation](https://github.com/VidCoin/VidCoin-iOS-SDK/blob/master/Documentation.md)
 
 To update, simply remove the old versions of the .bundle and .framework from the project, and add the new bundle and framework files.
 
-**Updating to v1.4.**
+**Updating to v1.4.5**
+
+In order to use the Vidcoin SDK to its fullest potential, make sure to add **StoreKit.framework** to the target's linked libraries, and mark it as **Optional**. This enables our SDK to present AppStore pages of advertised products directly within your apps, for an optimal user experience.
+
+**Updating to v1.4.***
 
 If you're updating from a SDK version prior to v1.4.\*, make sure to add **WebKit.framework** to the target's linked libraries, and mark it as **Optional**.
 
@@ -27,6 +31,7 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 ### Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| 1.4.5 | - | x | x | x | x | x |
 | 1.4.4 | - | x | x | x | x | x |
 | 1.4.3 | - | x | x | x | x | x |
 | 1.4.2 | - | x | x | x | x |  |
@@ -52,6 +57,10 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ## Changelog
+
+### v1.4.5
+*(Released on 02 Jan. 2018)*
+- Users are now presented with the in-app version of the AppStore page of a product advertised if they interact with the ad (requires `StoreKit.framework` as optional linked library)
 
 ### v1.4.4
 *(Released on 26 Oct. 2017)*
