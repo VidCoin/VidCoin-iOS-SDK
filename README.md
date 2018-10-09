@@ -3,25 +3,9 @@ VidCoin-iOS-SDK
 
 ## Download and install
 
-[Download the latest release (SDK + Documentation)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/download/v1.4.5/VidCoin-iOS-SDK.zip)
+[Download the latest release (SDK)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/latest)
 
-[Online Documentation](https://github.com/VidCoin/VidCoin-iOS-SDK/blob/master/Documentation.md)
-
-To update, simply remove the old versions of the .bundle and .framework from the project, and add the new bundle and framework files.
-
-**Updating to v1.4.5**
-
-In order to use the Vidcoin SDK to its fullest potential, make sure to add **StoreKit.framework** to the target's linked libraries, and mark it as **Optional**. This enables our SDK to present AppStore pages of advertised products directly within your apps, for an optimal user experience.
-
-**Updating to v1.4.***
-
-If you're updating from a SDK version prior to v1.4.\*, make sure to add **WebKit.framework** to the target's linked libraries, and mark it as **Optional**.
-
-Also, **MediaPlayer.framework** is not used anymore. Feel free to remove it, if you don't use it elsewhere in your project.
-
-**Updating to v1.2.0 and later**
-
-If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMedia.framework** to the target's linked libraries.
+Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin-iOS-SDK.html)
 
 ## Preview
 ![VidCoin Mobile Overlay](https://d3rud9259azp35.cloudfront.net/preview/ios_player.png "VidCoin Mobile Overlay")
@@ -29,34 +13,42 @@ If you're updating from a SDK version prior to v1.2.0, make sure to add **CoreMe
 ## Additional Informations
 
 ### Supported iOS versions
-| SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11
-| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 1.4.5 | - | x | x | x | x | x |
-| 1.4.4 | - | x | x | x | x | x |
-| 1.4.3 | - | x | x | x | x | x |
-| 1.4.2 | - | x | x | x | x |  |
-| 1.4.1 | - | x | x | x | x |  |
-| 1.4.0 | - | x | x | x | x |  |
-| 1.3.5 | x | x | x | x |  |  |
-| 1.3.4 | x | x | x | x |  |  |
-| 1.3.3 | x | x | x | x |  |  |
-| 1.3.2 | x | x | x | x |  |  |
-| 1.3.1 | x | x | x | x |  |  |
-| 1.3.0 | x | x | x | x |  |  |
-| 1.2.4 | x | x | x |  |  |  |
-| 1.2.3 | x | x | x |  |  |  |
-| 1.2.2 | x | x | x |  |  |  |
-| 1.2.1 | x | x | x |  |  |  |
-| 1.2.0 | x | x | x |  |  |  |
-| 1.1.2 | x | x |  |  |  |  |
-| 1.1.1 | x | x |  |  |  |  |
-| 1.1.0 | x | x |  |  |  |  |
-| 1.0.0 | x | x |  |  |  |  |
+| SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11| iOS 12
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |:-------------: |
+| 2.0.0 | - | - | - | x | x | x | x |
+| 1.4.5 | - | x | x | x | x | x | |
+| 1.4.5 | - | x | x | x | x | x | | 
+| 1.4.4 | - | x | x | x | x | x | |
+| 1.4.3 | - | x | x | x | x | x | |
+| 1.4.2 | - | x | x | x | x |  | |
+| 1.4.1 | - | x | x | x | x |  | |
+| 1.4.0 | - | x | x | x | x |  | |
+| 1.3.5 | x | x | x | x |  |  | |
+| 1.3.4 | x | x | x | x |  |  | |
+| 1.3.3 | x | x | x | x |  |  | |
+| 1.3.2 | x | x | x | x |  |  | |
+| 1.3.1 | x | x | x | x |  |  | |
+| 1.3.0 | x | x | x | x |  |  | |
+| 1.2.4 | x | x | x |  |  |  | |
+| 1.2.3 | x | x | x |  |  |  | |
+| 1.2.2 | x | x | x |  |  |  | |
+| 1.2.1 | x | x | x |  |  |  | |
+| 1.2.0 | x | x | x |  |  |  | |
+| 1.1.2 | x | x |  |  |  |  | |
+| 1.1.1 | x | x |  |  |  |  | |
+| 1.1.0 | x | x |  |  |  |  | |
+| 1.0.0 | x | x |  |  |  |  | |
 
 ### Deprecations
 Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ## Changelog
+
+### v2.0.0
+*(Released on 09 Oct. 2018)*
+- iOS 12
+- New workflow
+- Zone ID
 
 ### v1.4.5
 *(Released on 02 Jan. 2018)*
