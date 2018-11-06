@@ -15,6 +15,7 @@ Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin
 ### Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11| iOS 12
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |:-------------: |
+| 2.2.0 | - | - | - | x | x | x | x |
 | 2.1.0 | - | - | - | x | x | x | x |
 | 2.0.0 | - | - | - | x | x | x | x |
 | 1.4.5 | - | x | x | x | x | x | |
@@ -45,86 +46,110 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 
 ## Changelog
 
+### v2.2.0
+*(Released on 6 Nov. 2018)*
+
+- Improved SDK integration process
+- Apps and placement codes are created automatically
+- Overall stabilization and improvements
+
 ### v2.1.0
 *(Released on 22 Oct. 2018)*
+
 - New format
 - Overall stabilization and improvements
 
 ### v2.0.0
 *(Released on 09 Oct. 2018)*
+
 - iOS 12
 - New workflow
 - Zone ID
 
 ### v1.4.5
 *(Released on 02 Jan. 2018)*
+
 - Users are now presented with the in-app version of the AppStore page of a product advertised if they interact with the ad (requires `StoreKit.framework` as optional linked library)
 
 ### v1.4.4
 *(Released on 26 Oct. 2017)*
+
 - Improved callback management
 - Overall stabilization and improvements
 
 ### v1.4.3
 *(Released on 22 Sep. 2017)*
+
 - iOS 11 & iPhone X support
 
 ### v1.4.2
 *(Released on 23 Mar. 2017)*
+
 - Overall stabilization and improvements
 
 ### v1.4.1
 *(Released on 23 Nov. 2016)*
+
 - Improved player performance
 - Overall stabilization and improvements
 
 ### v1.4.0
 *(Released on 25 Oct. 2016)*
+
 - New improved UI for better user experience, with vertical ads support, lighter memory impact and many other improvements
 - Overall stabilization and improvements
 
 ### v1.3.5
 *(Released on 28 Jul. 2016)*
+
 - Improved player performance
 - Better ad tracking, for better ad serving
 - Overall stabilization and improvements
 
 ### v1.3.4
 *(Released on 1 Jun. 2016)*
+
 - Overall stabilization and improvements
 
 ### v1.3.3
 *(Released on 11 Feb. 2016)*
+
 - Overall stabilization and improvements
 
 ### v1.3.2
 *(Released on 10 Nov. 2015)*
+
 - Improved transitions
 - Overall stabilization and improvements
 
 
 ### v1.3.1
 *(Released on 24 Sep. 2015)*
+
 - Support for iOS 9
 - Improvements for Xcode 7 builds and AppStore submissions
 - Overall stabilization  
 
 ### v1.3.0
 *(Released on 17 Sep. 2015)*
+
 - Support for iOS 9
 - Overall stabilization and improvements  
 
 ### v1.2.4
 *(Released on 25 Aug. 2015)*
+
 - Overall stabilization and improvements
 
 ### v1.2.3
 *(Released on 27 Jul. 2015)*
+
 - Improved video quality handling fo better user experience
 - Reduced memory footprint and improved low memory handling
 
 ### v1.2.2
 *(Released on 12 May. 2015)*
+
 - More efficient video caching
 - Speed improvements
 - Reduced memory footprint
@@ -136,6 +161,7 @@ If you're **updating from a SDK version prior to 1.2.0**, make sure to include *
 
 ### v1.2.1
 *(Released on 24 Feb. 2015)*
+
 - Updated for projects created with Xcode 6
 - Visual improvements for the landing screen
 - Better tracking, for better ad serving
@@ -146,6 +172,7 @@ If you're **updating from a SDK version prior to 1.2.0**, make sure to include *
 
 ### v1.2.0
 *(Released on 14 Nov. 2014)*
+
 - Xcode 6, iOS 8 and iPhone 6 / 6 Plus support
 - New player and landing UI
 - New share button on the landing
@@ -162,6 +189,7 @@ If you're **updating from a previous SDK version**, make sure to include **CoreM
 
 ### v1.1.2
 *(Released on 08 Sep. 2014)*
+
 - Optimized player for devices running iOS 6
 
 ### v1.1.1
