@@ -51,7 +51,7 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 ### v2.4.0
 *(Released on 08 April. 2019)*
 
-- Add new placeholder to the trackers
+- Add new placeholder to the attribution trackers
 - Bug fixes 
 
 ### v2.3.0
