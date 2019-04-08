@@ -15,6 +15,7 @@ Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin
 ### Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11| iOS 12
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |:-------------: |
+| 2.4.0 | - | - | - | x | x | x | x |
 | 2.3.0 | - | - | - | x | x | x | x |
 | 2.2.0 | - | - | - | x | x | x | x |
 | 2.1.0 | - | - | - | x | x | x | x |
@@ -46,6 +47,12 @@ Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin
 Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ## Changelog
+
+### v2.4.0
+*(Released on 08 April. 2019)*
+
+- Add new placeholder to the trackers
+- Bug fixes 
 
 ### v2.3.0
 *(Released on 28 Nov. 2018)*
