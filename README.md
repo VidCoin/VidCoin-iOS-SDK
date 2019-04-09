@@ -5,7 +5,6 @@ VidCoin-iOS-SDK
 
 [Download the latest release (SDK)](https://github.com/VidCoin/VidCoin-iOS-SDK/releases/latest)
 
-Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin-iOS-SDK.html)
 
 ## Preview
 ![VidCoin Mobile Overlay](https://d3rud9259azp35.cloudfront.net/preview/ios_player.png "VidCoin Mobile Overlay")
@@ -15,6 +14,7 @@ Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin
 ### Supported iOS versions
 | SDK version  | iOS 6 | iOS 7 | iOS 8 | iOS 9 | iOS 10 | iOS 11| iOS 12
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |:-------------: |
+| 3.0.0 | - | - | - | x | x | x | x |
 | 2.4.0 | - | - | - | x | x | x | x |
 | 2.3.0 | - | - | - | x | x | x | x |
 | 2.2.0 | - | - | - | x | x | x | x |
@@ -47,6 +47,27 @@ Please refer to [Online Documentation](https://documentation.vidcoin.com/Vidcoin
 Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ## Changelog
+
+### v3.0.0
+*(Released on 09 April. 2019)*
+
+VoodooAds SDK is a major version upgrade.
+All classes are renamed or removed compared to the last SDK versions.
+
+- Refactor SDK public interface
+- New request Ad API
+- New sync SDK API ( get SDK configuration , automatic app creation )
+- New internal trackers API
+- Secure the trackers request (JWT)
+- Cache trackers to increase analytics sanity
+- Update tracking keys
+- New Log errors reporter
+- Handle HTTP error code
+- Request Timeout management
+- Support Banner format
+- Support Tablet/iPad assets
+- Improved asset's cache
+- Support Landscape Ads
 
 ### v2.4.0
 *(Released on 08 April. 2019)*
